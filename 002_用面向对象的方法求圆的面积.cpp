@@ -5,7 +5,7 @@ struct Cicle
 {
 	double m_s;
 	double m_r;
-};//没有加；
+};//没有加；要加；
 class MyCicle
 {
 public:
