@@ -69,9 +69,9 @@ public:
 void main()
 {
 	mycube c1, c2;
-	c1.setabc(5, 6, 7);
+	c1.setabc(5, 6, 7);//定义一个正方形的长宽高
 	c2.setabc(5, 6, 7);
-	int ret = c1.juget(c2);
+	int ret = c1.juget(c2);//判断是否相同
 	if (ret == 1)
 	{
 		cout << "是相等的" << endl;
