@@ -9,7 +9,7 @@ public:
 		a = _a;
 		b = _b;
 	}
-	friend void modify(test* tmp, int a);
+	friend void modify(test* tmp, int a);//写在类的哪里无所谓；
 	int  geta()
 	{
 		return a;
