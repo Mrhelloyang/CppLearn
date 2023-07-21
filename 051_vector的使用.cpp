@@ -6,7 +6,7 @@ using namespace std;
 
 void main()
 {
-	vector<int>a;
+	vector<int> a;//定义了一个动态数祖a；
 	a.push_back(2);
 	a.push_back(1);
 	a.push_back(3);
